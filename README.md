@@ -25,6 +25,12 @@ Use the slider in the top-right corner to adjust the raster overlay transparency
 
 This map and web application are for **educational and research purposes only**. Not for official, commercial, or legal planning use.
 
+## Contribute Your City
+
+Have a master plan for another city? Help build the India Master Plan Atlas.
+
+[**Want to contribute? Click here →**](https://sathvik6323.github.io/masterplan-overlay/)
+
 ## Deploy to GitHub Pages
 
 1. Push this folder's contents to your GitHub repository root
