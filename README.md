@@ -2,6 +2,8 @@
 
 Interactive Leaflet web map of the Ananthapuramu–Hindupur Master Plan area with an opacity slider for the raster overlay.
 
+**Live demo**: [sathvik6323.github.io/anantapur-masterplan](https://sathvik6323.github.io/anantapur-masterplan/)
+
 ## Features
 
 - Google Earth satellite basemap
