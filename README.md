@@ -19,6 +19,10 @@ Use the slider in the top-right corner to adjust the raster overlay transparency
 - **Master Plan Data**: © Ananthapuramu–Hindupur Urban Development Authority (AHUDA) / Town & Country Planning Dept., Govt. of Andhra Pradesh
 - **Software**: Generated with [qgis2web](https://github.com/tomchadwin/qgis2web) & [QGIS](https://qgis.org)
 
+## Disclaimer
+
+This map and web application are for **educational and research purposes only**. Not for official, commercial, or legal planning use.
+
 ## Deploy to GitHub Pages
 
 1. Push this folder's contents to your GitHub repository root
