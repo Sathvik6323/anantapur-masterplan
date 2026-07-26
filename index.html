@@ -158,6 +158,7 @@
             document.getElementById('opacity-value').textContent = Math.round(val * 100) + '%';
         });
         map.attributionControl.addAttribution('Master Plan Data &copy; <a href="https://ahuda.ap.gov.in" target="_blank">Ananthapuramu&ndash;Hindupur Urban Development Authority (AHUDA)</a> / Town &amp; Country Planning Dept., Govt. of Andhra Pradesh');
+        map.attributionControl.addAttribution('Educational Disclaimer: This map and web application are for educational and research purposes only. Not for official, commercial, or legal planning use.');
         setBounds();
         L.ImageOverlay.include({
             getBounds: function () {
