@@ -12,15 +12,67 @@
         <link rel="stylesheet" href="css/fontawesome-all.min.css">
         <link rel="stylesheet" href="css/leaflet.photon.css">
         <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
         #map {
-            width: 1620px;
-            height: 883px;
+            width: 100vw;
+            height: 100vh;
+        }
+        #disclaimer-modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: rgba(0,0,0,0.55);
+            z-index: 9999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #disclaimer-content {
+            background: #fff;
+            padding: 28px 24px;
+            border-radius: 8px;
+            max-width: 420px;
+            width: 85vw;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #333;
+            text-align: center;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.3);
+        }
+        #disclaimer-content p {
+            margin: 0 0 18px;
+            line-height: 1.6;
+            font-size: 15px;
+        }
+        #disclaimer-ok {
+            background: #444;
+            color: #fff;
+            border: none;
+            padding: 10px 40px;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        #disclaimer-ok:hover {
+            background: #555;
         }
         </style>
         <title></title>
     </head>
     <body>
         <div id="map">
+        </div>
+        <div id="disclaimer-modal">
+            <div id="disclaimer-content">
+                <p><strong>Educational Disclaimer</strong></p>
+                <p>This map and web application are for <strong>educational and research purposes only</strong>. Not for official, commercial, or legal planning use.</p>
+                <button id="disclaimer-ok">OK</button>
+            </div>
         </div>
         <script src="js/qgis2web_expressions.js"></script>
         <script src="js/leaflet.js"></script>
@@ -164,6 +216,9 @@
             getBounds: function () {
                 return this._bounds;
             }
+        });
+        document.getElementById('disclaimer-ok').addEventListener('click', function() {
+            document.getElementById('disclaimer-modal').style.display = 'none';
         });
         </script>
     </body>

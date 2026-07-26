@@ -209,7 +209,8 @@
             gap: 8px;
         }
         .opacity-control #opacity-slider {
-            width: 120px;
+            width: min(120px, 25vw);
+            height: 20px;
             vertical-align: middle;
             cursor: pointer;
         }
@@ -219,5 +220,13 @@
             text-align: right;
             font-weight: bold;
             font-size: 13px;
+        }
+        @media (max-width: 600px) {
+            .opacity-control {
+                padding: 4px 6px !important;
+            }
+            .opacity-control #opacity-slider {
+                width: 35vw;
+            }
         }
         
