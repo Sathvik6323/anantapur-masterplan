@@ -19,6 +19,7 @@ Use the slider in the top-right corner to adjust the raster overlay transparency
 
 - **Basemap**: Tiles © Google — Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community
 - **Master Plan Data**: © Ananthapuramu–Hindupur Urban Development Authority (AHUDA) / Town & Country Planning Dept., Govt. of Andhra Pradesh
+- **Source**: [Directorate of Town & Country Planning, Govt. of Andhra Pradesh](https://dtcp.ap.gov.in/)
 - **Software**: Generated with [qgis2web](https://github.com/tomchadwin/qgis2web) & [QGIS](https://qgis.org)
 
 ## Disclaimer
